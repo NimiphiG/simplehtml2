@@ -5,24 +5,82 @@
     <meta charset="UTF-8" />
     <title>Page G</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <style>
+        body{
+            background-color: #877058;
+            background-image:url(images/aquarium-goat-\ small.PNG)
+        
+        }
+        img {
+            width: 200px;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        h1,
+        h2 {
+            width: 200px;
+            font-family: cursive;
+            color: bisque;
+        }
+
+        p {
+            width: 200px;
+            font-size: 30px;
+            font-family: cursive;
+            color: #52adff;
+        }
+
+        #gallery-images {
+            display: inline-block;
+            font-size: 0;
+        }
+
+        .image-container {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #word-pig {
+            color: #ff8cad;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome</h1>
-    <h2>... pigs?</h2>
-    <div>
-        <div>
-            <img src="/simplehtml/images/trottin.jpg" alt="pigs" />
+    <h1>Welcome<span id="word-pig"> pig </span>
+    </h1>
+    <h2>
+        <span id="word-pig"> pig </span> butt?
+    </h2>
+    <div id="gallery-images">
+        <div class="image-container">
+            <img src="images/trottin.jpg" alt="pigs" />
+            <p>
+                <span id="word-pig"> pig </span>
+                butt? .................yes
+            </p>
         </div>
-        <div>
-            <img src="/simplehtml/images/pigmas.jpg" alt="door" />
+        <div class="image-container">
+            <img src="images/pigmas.jpg" alt="door" />
+            <p>
+                <span id="word-pig"> pig </span>
+                butt? .................yes
+            </p>
         </div>
-        <div>
-            <img src="/simplehtml/images/cows.jpg" alt="cows" />
-            <h4>...wrong</h4>
+        <div class="image-container">
+            <img src="images/cows.jpg" alt="cows" />
+            <p>
+                <span id="word-pig"> pig </span>
+                butt? .................maybe?
         </div>
+        </p>
+    </div>
     </div>
     <h1>Goodbye</h1>
 </body>
+<div id="word-pig"> pig </div>
 
 </html>
